@@ -42,7 +42,6 @@ class FirstFragment : Fragment() {
             val bufferStr = counter.toString().plus(". $input")
             binding.inputString.setText("")
             binding.result.text = bufferStr
-//            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
         binding.resetButton.setOnClickListener {
